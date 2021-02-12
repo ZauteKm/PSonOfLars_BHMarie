@@ -13,7 +13,7 @@ MAX_CHARS_PER_MESSAGE = "200"
 
 @run_async
 def warn_if_exceed(bot: Bot, update: Update):
-    short_name = "Created By @MidukkiBot"
+    short_name = "Created By @rashmikamidukki_bot"
     msg = update.effective_message # type: Optional[Message]
     chat = update.effective_chat # type: Optional[Chat]
     if len(msg.text) > MAX_CHARS_PER_MESSAGE:
